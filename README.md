@@ -1,2 +1,0 @@
-# ShivalayaSR-Frontend
-ShivalayaSR-Frontend
