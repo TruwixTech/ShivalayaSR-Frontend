@@ -2,15 +2,18 @@ import React, { useState } from "react";
 import Logo from "../assets/logo.png";
 import { FaBars, FaTimes } from "react-icons/fa"; // Import FontAwesome icons
 import { NavLink } from "react-router-dom";
+import {Link} from 'react-router-dom';
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="bg-white w-full h-[92px] px-5 md:px-10 lg:px-16 shadow-md">
-      <div className="flex justify-between items-center h-full">
+      <div className="flex justify-between items-center h-full font-playfair">
         {/* Logo */}
-        <div className="w-[180px] h-[60px]">
+        <div className=" h-[150px]">
+          <Link to='/property'>
           <img src={Logo} alt="Logo" className="h-full w-auto" />
+          </Link>
         </div>
 
         {/* Desktop Menu */}

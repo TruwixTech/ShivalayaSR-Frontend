@@ -1,7 +1,7 @@
 import React from "react";
 import House from "../assets/House1.png";
 import { PiBuildingsFill } from "react-icons/pi";
-
+import { Link } from "react-router-dom";
 import Section from "../components/Hompage/Section.jsx";
 import Section3 from "../components/Hompage/Section3.jsx";
 import Section4 from "../components/Hompage/Section4.jsx";
@@ -15,23 +15,23 @@ function HomePage() {
       <div className="flex flex-wrap items-center px-5 md:px-10 lg:px-16 py-10">
         {/* Left Content */}
         <div className="w-full md:w-1/2 flex flex-col justify-center gap-5">
-          <h1 className="text-3xl md:text-5xl text-[#0C385D] font-bold">
+          <h1 className="text-3xl md:text-5xl text-[#0C385D]  font-playfair">
             Building Dreams <br className="hidden md:block" />
             Safe, Modern, Minimal
           </h1>
 
-          <p className="text-lg md:text-xl text-[#080808]">
+          <p className="text-lg md:text-xl text-[#080808] font-playfair">
             Innovative designs, quality craftsmanship, <br className="hidden md:block" />
             and sustainable development.
           </p>
 
           <div className="flex flex-wrap gap-4 md:gap-6">
-            <button className="bg-[#0C385D] text-white flex justify-center items-center rounded-xl px-4 py-2 md:py-3 gap-3 text-sm md:text-base">
+            <Link to="/property"><button  className="bg-[#0C385D] text-white flex justify-center items-center rounded-xl px-4 py-2 md:py-3 gap-3 text-sm md:text-base font-playfair">
               <PiBuildingsFill size={18} /> Discover Our Projects
-            </button>
-            <button className="bg-gray-300 text-[#0C385D] px-5 py-2 md:py-3 rounded-xl text-sm md:text-base">
+            </button></Link>
+            <Link to="/property"><button className="bg-gray-300 text-[#0C385D] px-5 py-2 md:py-3 rounded-xl text-sm md:text-base">
               Learn More
-            </button>
+            </button></Link>
           </div>
         </div>
 
@@ -47,6 +47,7 @@ function HomePage() {
       <Section4 />
       <Section5 />
       <Section6 />
+      
     </div>
   );
 }

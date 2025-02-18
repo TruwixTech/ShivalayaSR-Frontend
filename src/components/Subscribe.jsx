@@ -10,10 +10,10 @@ const Subscribe = () => {
                 </div>
                 <div>
 
-                    <h1 className='text-2xl text-[#0C385D] font-semibold'>Stay Up to Date</h1>
+                    <h1 className='text-2xl text-[#0C385D] font-playflair'>Stay Up to Date</h1>
                 </div>
                 <div>
-                   <h1 className='text-[15px] text-[#080808]'>Subscribe to our newsletter to receive our weekly feed.</h1>
+                   <h1 className='text-[15px] text-[#080808] font-playflair'>Subscribe to our newsletter to receive our weekly feed.</h1>
                 </div>
                 <div className='md:w-[570px] border-2 rounded-full flex bg-[#ffffff] mb-4 '>
                     <div className='w-full md:w-[80%]'>

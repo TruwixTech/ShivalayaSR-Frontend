@@ -16,7 +16,8 @@ function Section2() {
             combining innovative design with sustainable practices.
           </p>
           <div className="flex justify-center md:justify-start">
-            <button className="bg-gray-300 text-[#0C385D] px-5 py-2 rounded-xl text-sm md:text-base">
+            <button className="bg-gray-300 text-[#0C385D] px-5 py-2 rounded-xl text-sm md:text-base font-playflair
+            ">
               Learn More
             </button>
           </div>
